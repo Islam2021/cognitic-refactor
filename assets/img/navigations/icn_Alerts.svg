@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="icn_Alerts" transform="translate(-2 -2)" opacity="0.6">
+    <g id="Path_33878" data-name="Path 33878" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7.86,2h8.28L22,7.86v8.28L16.14,22H7.86L2,16.14V7.86Z" stroke="none"/>
+      <path d="M 8.771260261535645 4.200000762939453 L 4.200000762939453 8.771260261535645 L 4.200000762939453 15.22873973846436 L 8.771260261535645 19.79999923706055 L 15.22873973846436 19.79999923706055 L 19.79999923706055 15.22873973846436 L 19.79999923706055 8.771260261535645 L 15.22873973846436 4.200000762939453 L 8.771260261535645 4.200000762939453 M 7.860000610351562 2 L 16.13999938964844 2 L 22 7.860000610351562 L 22 16.13999938964844 L 16.13999938964844 22 L 7.860000610351562 22 L 2 16.13999938964844 L 2 7.860000610351562 L 7.860000610351562 2 Z" stroke="none" fill="#fff"/>
+    </g>
+    <line id="Line_1118" data-name="Line 1118" y2="4" transform="translate(12 8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"/>
+    <line id="Line_1119" data-name="Line 1119" x2="0.01" transform="translate(12 16)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"/>
+  </g>
+</svg>

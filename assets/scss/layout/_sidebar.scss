@@ -1,0 +1,104 @@
+@import "../abstracts/_mixins";
+@import "../abstracts/_variables";
+.cog-sidebar {
+    // flex-basis: 92px;
+    position: relative;
+    .cog-sidebar-icon {
+        position: absolute;
+        right: 0;
+        left: 82px;
+        top: 8px;
+        cursor: pointer;
+        background: url(../../../assets/img/iconSvg/Collapse-Icon.svg) no-repeat;
+        width: 24px;
+        height: 69px;
+    }
+    .cog-sidebar-wrapper {
+        .cog-sidebar-body {
+            &.sidebar--opened {
+                width: 342px;
+                .cog-sidebar-logo {
+                    background: url(../../../assets/img/White/Cognitic.svg) no-repeat center center;
+                    width: 13rem;
+                    margin-left: 25px;
+                }
+                .txetMenu {
+                    width: 200px;
+                    overflow: unset;
+                }
+            }
+            position: fixed;
+            height: 100%;
+            width: 82px;
+            background: var(--small-sidebar);
+            top: 0;
+            @include transition(width, .3s, ease);
+            z-index: 9;
+            .cog-sidebar-logo {
+                text-align: center;
+                color: white;
+                text-indent: 999px;
+                display: block;
+                height: 82px;
+                width: 82px;
+                background: url(../../../assets/img/White/Cognitic_icon.svg) no-repeat center center;
+                background-size: 4rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+            }
+            .cog-sidebar-links {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 10px;
+                .nav {
+                    .nav-item {
+                        width: 100%;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        .nav-link {
+                            display: flex;
+                            position: relative;
+                            padding-right: 0;
+                            padding-left: 0;
+                            .cog-sidebar-link-icon {
+                                width: 44px;
+                                height: 44px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: var(--inactive-sidebar-icon);
+                                @include border-radius(10px);
+                                &.active {
+                                    background-color: var(--active-sidebar-icon);
+                                }
+                            }
+                            .txetMenu {
+                                top: 17px;
+                                font: normal normal 300 1.4rem/21px "Poppins", "ArabicUIText";
+                                letter-spacing: 0px;
+                                color: rgba(255, 255, 255, .6);
+                                width: 0;
+                                overflow: hidden;
+                                position: absolute;
+                                display: flex;
+                                left: 55px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .cog-submenu-sidebar {
+            position: fixed;
+            background-color: var(--big-sidebar);
+            width: 260px;
+            height: 100%;
+            top: 0;
+            left: 82px;
+        }
+    }
+}

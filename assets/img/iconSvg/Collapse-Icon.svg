@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.051" height="69.055" viewBox="0 0 24.051 69.055">
+  <g id="Collapse_Icon" data-name="Collapse Icon" transform="translate(-339.947 -4.998)">
+    <path id="Subtraction_2" data-name="Subtraction 2" d="M24430,13588.053h0l-.018-.018-.037-.037h.055v-69a26.652,26.652,0,0,0,5.49,8.074,42,42,0,0,0,5.943,4.763l.006,0,.01.006a23.277,23.277,0,0,1,5.006,4.2,23.994,23.994,0,0,1,.037,34.908,22.976,22.976,0,0,1-5.055,4.257l-.02.015a41.939,41.939,0,0,0-5.928,4.752,26.666,26.666,0,0,0-5.49,8.072Z" transform="translate(-24090 -13514)" fill="#212a6f"/>
+    <g id="icn_Collapse" transform="translate(-1.699 -28.5)">
+      <path id="Path_33931" data-name="Path 33931" d="M342.4,39.5h8" transform="translate(0.601 22)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Path_33933" data-name="Path 33933" d="M342.4,39.5h8" transform="translate(0.601 32)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Path_33932" data-name="Path 33932" d="M342.4,39.5h8" transform="translate(0.601 27)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

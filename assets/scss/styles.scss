@@ -1,15 +1,11 @@
+@import 'themes/_cognitic_theme';
 @import 'abstracts/_variables';
 @import 'abstracts/_mixins';
-@import 'abstracts/_variables';
-@import 'abstracts/_variables';
-@import 'abstracts/_variables';
-@import 'abstracts/_variables';
-@import 'abstracts/_variables';
-@import 'abstracts/_variables';
-@import 'abstracts/_variables';
-@import 'abstracts/_variables';
-@import 'abstracts/_variables';
-@import 'abstracts/_variables';
-h1 {
-    color: $main_color;
-}
+@import 'components/_charts';
+@import 'base/_global';
+@import 'base/_fonts';
+@import 'pages/_commend_center';
+@import 'layout/_sidebar';
+// Updated fils
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.2" height="24" viewBox="0 0 19.2 24">
+  <g id="icn_Security" transform="translate(-2)">
+    <path id="lock" d="M9.6,12.6V9a6,6,0,1,1,12,0v3.6h1.2A2.4,2.4,0,0,1,25.2,15v9.6A2.4,2.4,0,0,1,22.8,27H8.4A2.4,2.4,0,0,1,6,24.6V15a2.4,2.4,0,0,1,2.4-2.4ZM8.4,15v9.6H22.8V15ZM12,12.6h7.2V9A3.6,3.6,0,1,0,12,9Z" transform="translate(-4 -3)" fill="#313d8b" fill-rule="evenodd"/>
+    <rect id="Rectangle_1535" data-name="Rectangle 1535" width="3" height="4" transform="translate(10 15)" fill="#313d8b"/>
+  </g>
+</svg>

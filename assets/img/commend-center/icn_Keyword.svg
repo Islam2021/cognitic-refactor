@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="icn_Keyword" transform="translate(-343.293 -416)">
+    <rect id="Rectangle_1581" data-name="Rectangle 1581" width="32" height="32" rx="8" transform="translate(343.293 416)" fill="#1e68cc"/>
+    <g id="icn_Type" transform="translate(353.96 426.667)">
+      <path id="Path_33866" data-name="Path 33866" d="M4,6.375V4H14.667V6.375" transform="translate(-4 -4)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line id="Line_1131" data-name="Line 1131" x2="5.333" transform="translate(2.667 10.609)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line id="Line_1132" data-name="Line 1132" y2="10.281" transform="translate(5.333 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

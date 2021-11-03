@@ -1,0 +1,138 @@
+body,
+html {
+    [dir="ltr"] & {
+        direction: ltr;
+    }
+    [dir="rtl"] & {
+        direction: rtl;
+    }
+    font-family: var(--first_font) !important;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+
+.form-row>.col,
+.form-row>[class*=col-] {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
+
+.w-0 {
+    width: 0%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.devider {
+    width: 2px;
+    height: 50%;
+    background: var(--border-nvabar);
+}
+
+.owl-carousel .owl-item img {
+    display: unset;
+    width: unset;
+}
+
+.owl-item.active {
+    width: 1338px !important;
+}
+
+.commend-center {
+    .owl-nav.disabled+.owl-dots {
+        position: absolute;
+        right: 35px;
+        bottom: -17px;
+    }
+    .owl-dots .owl-dot span {
+        margin: 5px;
+    }
+    .owl-dots .owl-dot.active span {
+        background-color: #9AA3C0;
+    }
+    .owl-dots .owl-dot span {
+        background-color: #E6E8EF;
+    }
+}
+
+.owl-stage-outer {
+    position: relative;
+    .play {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: -10px;
+        cursor: pointer;
+        span {
+            font-size: 2.6rem;
+            color: #3B4EC4;
+        }
+    }
+    .pause {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: -10px;
+        cursor: pointer;
+        span {
+            font-size: 2.6rem;
+            color: #3B4EC4;
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    position: relative;
+}

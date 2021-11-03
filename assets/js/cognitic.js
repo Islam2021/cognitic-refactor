@@ -1,4 +1,42 @@
 $(document).ready(function() {
+
+    const App = document.getElementById("APP");
+    const btnClick = document.querySelector(".clickMode");
+    const darkIcon = document.querySelector(".aidm-icn_Dark");
+    const lsKey = "darkMode";
+
+    if (localStorage.getItem(lsKey) === "true") {
+        App.classList.add("dark-mode");
+        darkIcon.classList.add("aidm-icn_Light");
+    }
+    btnClick.addEventListener("click", function() {
+        darkIcon.classList.toggle("aidm-icn_Light");
+        App.classList.toggle("dark-mode");
+        localStorage.setItem(lsKey, App.classList.contains("dark-mode"))
+    });
+
+    const owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 10,
+        autoplay: false,
+        autoplayTimeout: 9000,
+        autoplayHoverPause: false
+    });
+
+    $('.play').on('click', function() {
+        owl.trigger('play.owl.autoplay', [1000]);
+        $(this).addClass("hide");
+        $('.pause').removeClass("hide");
+    })
+    $('.pause').on('click', function() {
+        owl.trigger('stop.owl.autoplay');
+        $('.paly').removeClass("hide");
+        $(this).addClass("hide");
+
+    })
+
     /* ----------------------------------------------------------------------------
  Handling open slide
  ----------------------------------------------------------------------------------- */
@@ -100,7 +138,7 @@ $(document).ready(function() {
     $(".toggleMenu").on("click", function() {
         $(".big-sidebar").toggleClass("open-main-sidebar");
         $(".main-sidebar").toggleClass("open-main-sidebar");
-        $(".openMenu .nav-item").tooltip();
+        // $(".openMenu .nav-item").tooltip();
         // $(".small-sidebar").toggleClass("hover");
     });
 

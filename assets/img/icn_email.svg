@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="icn_Email" transform="translate(-1654 -271)">
+    <rect id="Rectangle_1552" data-name="Rectangle 1552" width="22" height="22" transform="translate(1654 271)" fill="none" opacity="0"/>
+    <path id="email" d="M22.679,6.75H3.821A1.571,1.571,0,0,0,2.25,8.321V20.893a1.571,1.571,0,0,0,1.571,1.571H22.679a1.571,1.571,0,0,0,1.571-1.571V8.321A1.571,1.571,0,0,0,22.679,6.75ZM20.95,8.321l-7.7,5.327L5.55,8.321ZM3.821,20.893V9.037L12.8,15.252a.786.786,0,0,0,.9,0l8.981-6.215V20.893Z" transform="translate(1651.75 267.25)" fill="#fff"/>
+  </g>
+</svg>

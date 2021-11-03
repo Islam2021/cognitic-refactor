@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <clipPath id="clip-Artboard_2">
+      <rect width="84" height="84"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" clip-path="url(#clip-Artboard_2)">
+    <g id="Group_2830" data-name="Group 2830" transform="translate(-736 -675)">
+      <rect id="_6b8c904841536fdfa321802e479f101d" data-name="6b8c904841536fdfa321802e479f101d" width="72" height="72" rx="36" transform="translate(742 681)" fill="#23b1d3"/>
+      <g id="icn_Magnifier" transform="translate(763 701)">
+        <g id="Group_2827" data-name="Group 2827">
+          <path id="Path_33735" data-name="Path 33735" d="M3.8,22.16A12.985,12.985,0,0,1,22.16,3.8a12.732,12.732,0,0,1,1.953,15.671.546.546,0,0,0,.075.651l5.625,5.625c1.319,1.318,1.632,3.162.463,4.332l-.2.2c-1.169,1.17-3.013.856-4.332-.463L20.133,24.2a.554.554,0,0,0-.665-.089A12.732,12.732,0,0,1,3.8,22.16Zm15.966-2.4a9.594,9.594,0,1,0-13.568,0A9.605,9.605,0,0,0,19.763,19.763Z" transform="translate(-0.001 0)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

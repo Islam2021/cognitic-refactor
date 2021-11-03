@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="icn_Spotting" transform="translate(-173.765 -111.541)" opacity="0.6">
+    <path id="Path_33719" data-name="Path 33719" d="M184.766,114.542a8,8,0,1,1-8,8,8.009,8.009,0,0,1,8-8m0-2a10,10,0,1,0,10,10,10,10,0,0,0-10-10Z" transform="translate(-1.001 -1.001)" fill="#fff"/>
+    <circle id="Ellipse_956" data-name="Ellipse 956" cx="3" cy="3" r="3" transform="translate(180.765 118.541)" fill="#fff"/>
+    <rect id="Rectangle_1591" data-name="Rectangle 1591" width="2" height="5" rx="1" transform="translate(182.765 111.542)" fill="#fff"/>
+    <rect id="Rectangle_1592" data-name="Rectangle 1592" width="2" height="5" rx="1" transform="translate(182.765 126.542)" fill="#fff"/>
+    <rect id="Rectangle_1593" data-name="Rectangle 1593" width="2" height="5" rx="1" transform="translate(193.765 120.541) rotate(90)" fill="#fff"/>
+    <rect id="Rectangle_1594" data-name="Rectangle 1594" width="2" height="5" rx="1" transform="translate(178.765 120.541) rotate(90)" fill="#fff"/>
+  </g>
+</svg>

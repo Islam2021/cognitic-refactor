@@ -1,0 +1,79 @@
+@import "../abstracts/_mixins";
+@import "../abstracts/_variables";
+.multi-graph,
+.highcharts-figure {
+    #Sentiment,
+    #media-volume,
+    #gender-distribution {
+        height: 250px;
+        width: 100%;
+    }
+    #world {
+        width: 100%;
+        height: 600px;
+    }
+    .highcharts-credits,
+    .highcharts-exporting-group,
+    .highcharts-subtitle,
+    .highcharts-legend,
+    .highcharts-legend-box,
+    .highcharts-a11y-proxy-container-after,
+    #highcharts-screen-reader-region-after-0,
+    #highcharts-screen-reader-region-before-0 div {
+        display: none;
+    }
+    .highcharts-background {
+        background: transparent;
+        fill: transparent;
+        stroke: transparent;
+    }
+    .highcharts-point {
+        stroke: var(--white-bg);
+    }
+    .multi-graph-text-holder {
+        position: relative;
+        &.sentiment {
+            top: 40px;
+        }
+        &.media-volume {
+            top: 10px;
+        }
+        .multi-graph-num {
+            text-align: center;
+            font: normal normal bold 3rem/46px var(--first_font);
+            letter-spacing: 0px;
+            color: var(--widget-media-small-number);
+            opacity: 1;
+            margin-bottom: 0;
+        }
+        .multi-graph-text {
+            text-align: center;
+            font: normal normal 400 1.4rem/21px var(--first_font);
+            letter-spacing: 0.42px;
+            color: var(--field-title);
+            opacity: 1;
+        }
+    }
+}
+
+.multi-graph-info-between {
+    margin-bottom: 3.5rem;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .multi-graph-text {
+        font: normal normal 400 1.4rem/21px var(--first_font);
+        letter-spacing: 0.42px;
+        color: #6E83B1;
+        opacity: 1;
+        img {
+            margin-right: 1.5rem;
+        }
+    }
+    .multi-graph-num {
+        font: normal normal 600 1.6rem/25px var(--first_font);
+        letter-spacing: 0.48px;
+        color: var(--widget-media-small-number);
+        opacity: 1;
+    }
+}

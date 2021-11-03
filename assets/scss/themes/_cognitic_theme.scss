@@ -1,0 +1,124 @@
+.cognitic-theme {
+    /**  Side Navigator */
+    --small-sidebar: rgba(33, 42, 111, 1);
+    --big-sidebar: rgba(14, 22, 87, 1);
+    --active-sidebar-icon: rgba(42, 63, 242, 1);
+    --inactive-sidebar-icon: rgba(14, 22, 87, 0.3);
+    --Accordion-icons: rgba(158, 161, 188, 1);
+    // --active-space-name: #ffffff;
+    // --keyword-hashtag-icon: #1e68cc;
+    // --location-icon: #946bd9;
+    // --social-account-icon: #1598b7;
+    /**  CTA */
+    --primary-cta-bg: rgba(148, 59, 164, 1);
+    --primary-cta-font: rgba(255, 255, 255, 1);
+    --secondary-cta-bg: rgba(255, 255, 255, 1);
+    --secondary-cta-font: : rgba(48, 63, 159, 1);
+    --secondary-cta-icon: : rgba(48, 63, 159, 1);
+    --primary-outline-cta-bg: rgba(255, 255, 255, 1);
+    --primary-outline-cta-font: rgba(148, 59, 164, 1);
+    --primary-outline-cta-border: rgba(148, 59, 164, 1);
+    --secondary-outline-cta-bg: rgba(255, 255, 255, 1);
+    --secondary-outline-cta-font: rgba(58, 70, 149, 1);
+    --secondary-outline-cta-border: rgba(199, 201, 213, 1);
+    /**  Icon CTA */
+    --icon-cta-bg: rgba(255, 255, 255, 1);
+    --icon-cta-icon: rgba(48, 63, 159, 1);
+    /**  Dropdown */
+    --dropdown-option: rgba(4, 25, 98, 1);
+    --dropdown-icon: rgba (110, 131, 177, 1);
+    /**  Top Navigator */
+    --top-bar-title: rgba(41, 51, 120, 1);
+    --active-tab-item: rgba(49, 61, 139, 1);
+    --inactive-tab-item: #aeb0b5;
+    --social-platform-title: rgba(49, 61, 139, 1);
+    --social-platform-dropdown: rgba(110, 131, 177);
+    /**  Body */
+    --analytics-title: rgba(48, 63, 159, 1);
+    /**  Widgets */
+    --widget-main-title: rgba(4, 25, 98, 1);
+    --widget-media-text: rgba(39, 39, 39, 1);
+    --widget-media-number: rgba(48, 63, 159, 1);
+    --widget-media-small-number: rgba(39, 39, 39, 1);
+    --widget-media-sub-text: rgba(110, 131, 177, 1);
+    --widget-icon-bg: rgba(59, 78, 196, 0.05);
+    --widget-icon: #3B4EC4;
+    --field-title: #272727;
+    --field-place-holder: rgba(4, 25, 98, 0.6);
+}
+
+.light-mode {
+    --bg-light: #F4F7FE;
+    --navbar-bg: #FFFFFF;
+    --white-bg: #FFFFFF;
+    --bg-progress: #f8f8fb;
+    --icon-mode: #9AA3C0;
+    /**  Top Navigator */
+    --top-bar-title: rgba(41, 51, 120, 1);
+    --active-tab-item: rgba(49, 61, 139, 1);
+    --active-tab-border: #3B4EC4;
+    --border-nvabar: #E9EAF0;
+    --border-top-country: #E9EAF0;
+    --logo-image: url(../../../assets/img/Colored/Cognitic.svg);
+    /**  Body */
+    --analytics-title: rgba(48, 63, 159, 1);
+    /**  Widgets */
+    --widget-main-title: rgba(4, 25, 98, 1);
+    --widget-media-text: rgba(39, 39, 39, 1);
+    --widget-media-number: rgba(48, 63, 159, 1);
+    --widget-media-small-number: rgba(39, 39, 39, 1);
+    --widget-media-sub-text: rgba(110, 131, 177, 1);
+    --widget-icon-bg: rgba(59, 78, 196, 0.05);
+    --widget-icon: #3B4EC4;
+    --field-title: #272727;
+    --field-place-holder: rgba(4, 25, 98, 0.6);
+    /**  cards */
+    --bg-card: #fff;
+    --card-title: #303F9F;
+    --card-subtitle: #94969B;
+    --card-pragraph: #444D64;
+    --card-date: #94969B;
+    --card-footer-bg: #FBFCFE;
+    --card-border: #DFE0E5;
+    --card-number: #041962;
+    --card-footer-small-text: #272727;
+    --card-link: #041962;
+}
+
+.dark-mode {
+    --bg-light: #1B1C33;
+    --navbar-bg: #262944;
+    --white-bg: #262944;
+    --bg-progress: #353851;
+    --icon-mode: #7F8191;
+    /**  Top Navigator */
+    --top-bar-title: #fff;
+    --active-tab-item: rgba(49, 61, 139, 1);
+    --active-tab-border: #6595FF;
+    --border-nvabar: #46485F;
+    --border-top-country: #45485F;
+    --logo-image: url(../../../assets/img/White/Cognitic.svg);
+    /**  Body */
+    --analytics-title: rgba(48, 63, 159, 1);
+    /**  Widgets */
+    --widget-main-title: rgba(255, 255, 255, .9);
+    --widget-media-text: rgba(39, 39, 39, 1);
+    --widget-media-number: #fff;
+    --widget-media-small-number: rgba(255, 255, 255, 1);
+    --widget-media-sub-text: rgba(110, 131, 177, 1);
+    --widget-icon-bg: rgba(59, 78, 196, 0.05);
+    --widget-icon: #3B4EC4;
+    --field-title: rgba(255, 255, 255, .6);
+    --field-place-holder: rgba(4, 25, 98, 0.6);
+    /**  cards */
+    --bg-card: #313555;
+    --card-title: #FFFFFF;
+    --card-subtitle: rgba(255, 255, 255, .7);
+    --card-pragraph: rgba(255, 255, 255, .5);
+    --card-date: rgba(255, 255, 255, .5);
+    --card-footer-bg: #353851;
+    --card-border: #45485F;
+    --card-number: #FFFFFF;
+    --card-footer-small-text: rgba(255, 255, 255, .5);
+    --card-link: rgba(255, 255, 255, .9);
+}
