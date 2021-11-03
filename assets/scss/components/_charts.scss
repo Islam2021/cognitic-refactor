@@ -33,14 +33,14 @@
     .multi-graph-text-holder {
         position: relative;
         &.sentiment {
-            top: 40px;
+            top: 4rem;
         }
         &.media-volume {
-            top: 10px;
+            top: 1rem;
         }
         .multi-graph-num {
             text-align: center;
-            font: normal normal bold 3rem/46px var(--first_font);
+            font: normal normal bold 3rem/4.6rem var(--first_font);
             letter-spacing: 0px;
             color: var(--widget-media-small-number);
             opacity: 1;
@@ -48,7 +48,7 @@
         }
         .multi-graph-text {
             text-align: center;
-            font: normal normal 400 1.4rem/21px var(--first_font);
+            font: normal normal 400 1.4rem/2.1rem var(--first_font);
             letter-spacing: 0.42px;
             color: var(--field-title);
             opacity: 1;
@@ -62,7 +62,7 @@
         margin-bottom: 0;
     }
     .multi-graph-text {
-        font: normal normal 400 1.4rem/21px var(--first_font);
+        font: normal normal 400 1.4rem/2.1rem var(--first_font);
         letter-spacing: 0.42px;
         color: #6E83B1;
         opacity: 1;
@@ -71,7 +71,7 @@
         }
     }
     .multi-graph-num {
-        font: normal normal 600 1.6rem/25px var(--first_font);
+        font: normal normal 600 1.6rem/2.5rem var(--first_font);
         letter-spacing: 0.48px;
         color: var(--widget-media-small-number);
         opacity: 1;

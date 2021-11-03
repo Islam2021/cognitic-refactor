@@ -16,8 +16,8 @@ html {
 
 .form-row>.col,
 .form-row>[class*=col-] {
-    padding-right: 7.5px;
-    padding-left: 7.5px;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
 }
 
 .w-0 {
@@ -86,11 +86,11 @@ html {
 .commend-center {
     .owl-nav.disabled+.owl-dots {
         position: absolute;
-        right: 35px;
-        bottom: -17px;
+        right: 3.5rem;
+        bottom: -1.7rem;
     }
     .owl-dots .owl-dot span {
-        margin: 5px;
+        margin: 0.5rem;
     }
     .owl-dots .owl-dot.active span {
         background-color: #9AA3C0;
@@ -106,7 +106,7 @@ html {
         position: absolute;
         right: 0;
         bottom: 0;
-        top: -10px;
+        top: -1rem;
         cursor: pointer;
         span {
             font-size: 2.6rem;

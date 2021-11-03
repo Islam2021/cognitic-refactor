@@ -51,8 +51,8 @@
         color: var(--top-bar-title);
         opacity: 1;
         img {
-            width: 32px;
-            height: 32px;
+            width: 3.2rem;
+            height: 3.2rem;
             [dir="ltr"] & {
                 margin-right: 4px;
             }
@@ -75,9 +75,6 @@
         }
     }
     &__fullscreen {
-        // background: url(../../../assets/img/commend-center/icn_Minimize.svg) no-repeat center center / cover;
-        // width: 20px;
-        // height: 20px;
         cursor: pointer;
         span {
             font-size: 2rem;
@@ -103,12 +100,12 @@
         min-height: 195px;
         @include border-radius(10px);
         width: 100%;
-        padding: 30px;
-        margin-bottom: 15px;
+        padding: 3rem;
+        margin-bottom: 1.5rem;
     }
     &__title {
         text-align: left;
-        font: normal normal 400 1.6rem/25px var(--first_font);
+        font: normal normal 400 1.6rem/2.5rem var(--first_font);
         letter-spacing: 0.24px;
         color: var(--widget-main-title);
         opacity: 0.9;
@@ -119,7 +116,7 @@
             align-items: center;
         }
         .number {
-            font: normal normal bold 5rem/65px var(--first_font);
+            font: normal normal bold 5rem/6.5rem var(--first_font);
             letter-spacing: 0px;
             color: var(--widget-media-number);
             opacity: 1;
@@ -131,7 +128,7 @@
             [dir="rtl"] & {
                 text-align: right;
             }
-            font: normal normal 600 2.2rem/33px var(--first_font);
+            font: normal normal 600 2.2rem/3.3rem var(--first_font);
             letter-spacing: 0px;
             opacity: 1;
             &.red {
@@ -144,7 +141,7 @@
                 color: var(--red);
             }
             i {
-                font-size: 10px;
+                font-size: 1rem;
             }
         }
         p {
@@ -155,7 +152,7 @@
             [dir="rtl"] & {
                 text-align: right;
             }
-            font: normal normal 400 1.4rem/21px var(--first_font);
+            font: normal normal 400 1.4rem/2.1rem var(--first_font);
             letter-spacing: 0.42px;
             color: var(--field-title);
             opacity: 1;
@@ -163,12 +160,12 @@
     }
     &__content-widget {
         &.margin {
-            margin-top: 35px;
+            margin-top: 3.5rem;
         }
         .multi-graph-info {
             .grph-data {
                 text-align: center;
-                font: normal normal 400 1.4rem/21px var(--first_font);
+                font: normal normal 400 1.4rem/2.1rem var(--first_font);
                 letter-spacing: 0.42px;
                 color: var(--field-title);
                 opacity: 1;
@@ -185,7 +182,7 @@
                 p {
                     margin-bottom: 0;
                     text-align: center;
-                    font: normal normal bold 2.4rem/35px var(--first_font);
+                    font: normal normal bold 2.4rem/3.5rem var(--first_font);
                     letter-spacing: 0px;
                     color: var(--top-bar-title);
                     opacity: 1;
@@ -244,7 +241,7 @@
             [dir="rtl"] & {
                 text-align: right;
             }
-            font: normal normal 400 1.6rem/25px var(--first_font);
+            font: normal normal 400 1.6rem/2.5rem var(--first_font);
             letter-spacing: 0.24px;
             color: var(--widget-main-title);
             opacity: 0.3;
@@ -262,10 +259,10 @@
                 opacity: 1;
                 &:before {
                     position: absolute;
-                    top: -30px;
+                    top: -3rem;
                     content: "";
                     width: 100%;
-                    height: 5px;
+                    height: 0.5rem;
                     background: var(--active-tab-border);
                     left: 0;
                 }
@@ -292,30 +289,30 @@
         justify-content: flex-start;
     }
     &__num {
-        font: normal normal 600 1.6rem/27px var(--first_font);
+        font: normal normal 600 1.6rem/2.7rem var(--first_font);
         letter-spacing: 0px;
         color: #FFFFFF;
         opacity: 1;
         [dir="ltr"] & {
-            padding-left: 10px;
+            padding-left: 1rem;
             text-align: left;
         }
         [dir="rtl"] & {
-            padding-right: 10px;
+            padding-right: 1rem;
             text-align: right;
         }
     }
 }
 
 .top-country {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
     &__layout {
         display: grid;
         grid-template-columns: auto auto;
     }
     &__item {
         border: 1px solid var(--border-top-country);
-        padding: 30px;
+        padding: 3rem;
     }
     &__txet {
         [dir="ltr"] & {
@@ -324,19 +321,19 @@
         [dir="rtl"] & {
             text-align: right;
         }
-        font: normal normal 600 1.6rem/25px var(--first_font);
+        font: normal normal 600 1.6rem/2.5rem var(--first_font);
         letter-spacing: 0px;
         color: var(--field-title);
         opacity: 1;
         span {
-            font: normal normal 600 1.6rem/25px var(--first_font);
+            font: normal normal 600 1.6rem/2.5rem var(--first_font);
             letter-spacing: 0px;
             color: var(--field-title);
             opacity: 0.4;
         }
         .arrow {
             font-size: 8px;
-            padding: 0 10px 0 8px;
+            padding: 0 1rem 0 0.8rem;
         }
         .arrow-up {
             color: #19D074;
@@ -349,9 +346,9 @@
         }
         img {
             @include border-radius(50px);
-            width: 42px;
-            height: 42px;
-            margin-right: 12px;
+            width: 4.2rem;
+            height: 4.2rem;
+            margin-right: 1.2rem;
         }
     }
     &__number {
@@ -361,7 +358,7 @@
         [dir="rtl"] & {
             text-align: left;
         }
-        font: normal normal 600 1.8rem/27px var(--first_font);
+        font: normal normal 600 1.8rem/2.7rem var(--first_font);
         letter-spacing: 0px;
         color: var(--widget-media-number);
         opacity: 1;
@@ -383,9 +380,9 @@
     &__media {
         align-items: center;
         .image {
-            width: 60px;
-            height: 60px;
-            margin-right: 12px;
+            width: 6.0rem;
+            height: 6.0rem;
+            margin-right: 1.2rem;
             img {
                 @include border-radius(50px);
                 width: 100%;
@@ -453,8 +450,8 @@
         }
     }
     &__info-data {
-        margin-top: 40px;
-        margin-bottom: 19px;
+        margin-top: 4rem;
+        margin-bottom: 1.9rem;
     }
     &__v-post {
         .nav-link {
