@@ -32,7 +32,7 @@ $(document).ready(function() {
     })
     $('.pause').on('click', function() {
         owl.trigger('stop.owl.autoplay');
-        $('.paly').removeClass("hide");
+        $('.play').removeClass("hide");
         $(this).addClass("hide");
 
     })
